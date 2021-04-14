@@ -1,4 +1,4 @@
-# Newsgroups-Naive-Bayes
+# Newsgroups Naive Bayes
 
 This project seeks to build a multinomial naive Bayes model for text classification. Rather than rely on the pre-built sklearn.naive_bayes.MultinomialNB module for the bulk of my work, I will instead be constructing a .ipynb notebook to mimic said classifier's behaviour. The predictions themselves require two main calculations: the label priors for all classes in the dataset, and the word probabilities per class. These two data structures, after some manipulations, will combine to form values proportional to the posterior probabilities for each class. The final act in classification will be to choose the most probable posterior hypothesis and that class will become the prediction.
 
